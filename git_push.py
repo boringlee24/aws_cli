@@ -26,12 +26,21 @@ for ins in instances:
     for item in describe:
         if item[0][1] == ins:
             addr = item[0][-1]
-    
+            ins_id = item[0][0] 
             conn = Connection(
             host=addr,
             user='ubuntu',
             connect_kwargs={
             "key_filename": "/home/ubuntu/.ssh/baolin_key.pem",
             },)
-            conn.run(f'tmux new-session -d -s 0 "python experiment.py {ins}"')
+            # first push, then terminate
+            pdb.set_trace()
+            try:
+                conn.run(f'python git_push.py {ins}')
+            except:
+                pass
+            else:
+                print(f'push succedded for {ins}, terminating instance')
+                cmd = f'./terminate.sh {ins_id}'
+                subprocess.check_call([cmd], shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, cwd = cwd)
             break
