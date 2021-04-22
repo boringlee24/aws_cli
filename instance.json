@@ -1,13 +1,13 @@
 [
     [
         [
-            "i-06de893dc33421e18",
-            "t2.xlarge",
+            "i-0ac2b36fe753dc588",
+            "c4.2xlarge",
             {
                 "Code": 16,
                 "Name": "running"
             },
-            "ec2-18-116-71-231.us-east-2.compute.amazonaws.com"
+            "ec2-3-15-146-141.us-east-2.compute.amazonaws.com"
         ]
     ],
     [
@@ -19,6 +19,116 @@
                 "Name": "running"
             },
             "ec2-3-141-22-84.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-065940a447758f7bf",
+            "m5a.xlarge",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-3-140-246-157.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-047718c2da9dfedb6",
+            "c5.2xlarge",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-18-116-39-32.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-09ab7857405634461",
+            "r5.large",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-18-116-48-21.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-094edeee966c99974",
+            "r4.large",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-18-216-154-244.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-0a266d024fe5a1934",
+            "c5a.2xlarge",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-18-217-221-59.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-07444f2a4d15d4a42",
+            "m4.xlarge",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-18-216-31-156.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-00b1badbbe3ad3cee",
+            "t3a.xlarge",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-18-218-199-177.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-0c796c41c872b3f30",
+            "c5n.2xlarge",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-3-134-111-114.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-073b66b7019598de3",
+            "r5a.large",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-3-131-96-174.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-0d928a75e7b998fc6",
+            "r5n.large",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-3-129-18-224.us-east-2.compute.amazonaws.com"
         ]
     ]
 ]

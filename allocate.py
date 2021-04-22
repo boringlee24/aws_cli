@@ -9,7 +9,7 @@ import time
 #import datetime
 #from pathlib import Path
 
-instances = ['t2.xlarge', 't3.xlarge']
+instances = ['t2.xlarge', 't3.xlarge', 't3a.xlarge', 'm4.xlarge', 'm5.xlarge', 'm5a.xlarge', 'm5n.xlarge', 'c4.2xlarge', 'c5.2xlarge', 'c5a.2xlarge', 'c5n.2xlarge', 'r4.large', 'r5.large', 'r5a.large', 'r5n.large']
 
 #Path(f'../logs/simulator/{instance}').mkdir(parents=True, exist_ok=True)
 #Path(f'../logs_load/simulator/{instance}').mkdir(parents=True, exist_ok=True)
