@@ -1,0 +1,24 @@
+[
+    [
+        [
+            "i-0f7e56cbd675fd1ea",
+            "t2.micro",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-3-143-255-178.us-east-2.compute.amazonaws.com"
+        ]
+    ],
+    [
+        [
+            "i-026561280d366215c",
+            "t2.micro",
+            {
+                "Code": 16,
+                "Name": "running"
+            },
+            "ec2-3-16-56-238.us-east-2.compute.amazonaws.com"
+        ]
+    ]
+]
